@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Comit by Tarun
+          Comit by aditya
         </a>
       </header>
     </div>
