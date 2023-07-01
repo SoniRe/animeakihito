@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: orangered;
+}
+
+.header__link {
+  text-decoration: none;
+  color: var(--color-grey-light-3);
+}
+
+.logo {
+  height: 15rem;
+}
