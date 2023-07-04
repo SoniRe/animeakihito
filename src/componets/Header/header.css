@@ -44,6 +44,10 @@
   &::placeholder {
     color: var(--color-grey-light-3);
   }
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .login {
