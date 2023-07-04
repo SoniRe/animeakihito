@@ -4,6 +4,7 @@
   align-items: center;
 
   background-color: orangered;
+  border-bottom: 1px solid var(--color-grey-dark-3);
 }
 
 .header__link {
@@ -13,4 +14,50 @@
 
 .logo {
   height: 15rem;
+}
+
+.search {
+  display: flex;
+  flex: 0 0 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.search__icon {
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  fill: var(--color-grey-dark-2);
+}
+
+.search__input {
+  font-size: 1.4rem;
+  padding: 2rem 1.4rem;
+  border-radius: 1rem;
+
+  background-color: transparent;
+  border: 0.3rem solid var(--color-grey-dark-3);
+  width: 80%;
+  margin-left: -3.5rem;
+  padding-left: 4rem;
+
+  &::placeholder {
+    color: var(--color-grey-light-3);
+  }
+}
+
+.login {
+  border: none;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: black;
+}
+
+.initial {
+  border: none;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  color: black;
+  background-color: #fff;
 }
