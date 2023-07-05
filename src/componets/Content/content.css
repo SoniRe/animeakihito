@@ -1,10 +1,22 @@
-.home {
-  height: 50%;
-  margin: 0 0 0 55rem;
+.content {
+  height: 89vh;
+  background-image: url("../../assets/chainsaw-man.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.background {
+  backdrop-filter: blur(55px);
+  background: rgba(255, 255, 255, 0.2);
+  /* Make sure this color has an opacity of less than 1 */
+  height: 100vh;
 }
 
 .home__image {
-  height: 100%;
-  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50%;
+  width: 50%;
   border-radius: 100px;
 }
