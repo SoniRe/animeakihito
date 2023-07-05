@@ -1,0 +1,10 @@
+.home {
+  height: 50%;
+  margin: 0 0 0 55rem;
+}
+
+.home__image {
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+}
