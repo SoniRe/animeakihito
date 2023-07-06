@@ -36,14 +36,14 @@ export default App;
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-console.log("Website starting.....");
-alert(
-  "Some content is age restricted and sensitive here you should be 18+ ti view it"
-);
-let x = prompt("Enter your age");
+// console.log("Website starting.....");
+// alert(
+//   "Some content is age restricted and sensitive here you should be 18+ ti view it"
+// );
+// let x = prompt("Enter your age");
 
-if ((x = true)) {
-  alert("YOU CAN START VIEWING THE WEBSITE");
-} else {
-  alert("ERROR");
-}
+// if ((x = true)) {
+//   alert("YOU CAN START VIEWING THE WEBSITE");
+// } else {
+//   alert("ERROR");
+// }
