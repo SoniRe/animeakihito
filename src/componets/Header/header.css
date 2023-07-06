@@ -29,11 +29,11 @@
 }
 
 svg {
+  height: 2rem;
   background-color: transparent;
 }
 
 .search__icon {
-  display: block;
   background-color: transparent;
   fill: #8a8d8d;
 }
