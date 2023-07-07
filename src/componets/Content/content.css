@@ -1,3 +1,47 @@
 .content {
-  background-color: #0b0b0a;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+  padding-left: 5rem;
+}
+
+.content__title {
+  font-size: 5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.content__summary {
+  width: 23%;
+}
+
+.content__contact {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  border: none;
+  padding: 1.7rem 3rem;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: #222523;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.bookmark {
+  fill: #fff;
+  margin-right: 2px;
+}
+
+.text {
+  display: inline-block;
+  font-size: 1.5rem;
 }

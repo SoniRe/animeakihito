@@ -36,9 +36,11 @@ svg {
 .search__icon {
   background-color: transparent;
   fill: #8a8d8d;
+  cursor: pointer;
 }
 
 .search__button {
+  cursor: pointer;
   border: none;
   background-color: transparent;
 }
