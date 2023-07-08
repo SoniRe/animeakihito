@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   height: 70%;
-  padding-left: 5rem;
+  margin-left: 5rem;
 }
 
 .content__title {
@@ -33,7 +33,10 @@
   cursor: pointer;
   justify-content: center;
   align-items: center;
-  margin-left: 2rem;
+
+  &:not(:first-child) {
+    margin-left: 2rem;
+  }
 }
 
 .btn--white {
