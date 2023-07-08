@@ -30,17 +30,36 @@
   border: none;
   padding: 1.7rem 3rem;
   border-radius: 1rem;
-  color: #fff;
-  background-color: #222523;
   cursor: pointer;
   justify-content: center;
   align-items: center;
   margin-left: 2rem;
+}
+
+.btn--white {
+  color: #252424;
+  background-color: #fffefe;
+
+  &:hover {
+    background-color: #e9e9e9;
+    color: black;
+  }
+}
+
+.btn--black {
+  color: #fff;
+  background-color: #222523;
 
   &:hover {
     background-color: black;
     color: #fff;
   }
+}
+
+.play {
+  margin-right: 5px;
+  height: 2rem;
+  width: 2rem;
 }
 
 .bookmark {

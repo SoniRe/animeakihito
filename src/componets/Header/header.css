@@ -73,10 +73,10 @@ svg {
   border: none;
   padding: 1.7rem 3rem;
   border-radius: 1rem;
-  color: #fff;
-  background-color: #222523;
   cursor: pointer;
   font-size: 1.4rem;
+  color: #fff;
+  background-color: #222523;
 
   &:hover {
     background-color: black;
@@ -89,8 +89,8 @@ svg {
   border: none;
   padding: 1.7rem 3rem;
   border-radius: 1rem;
-  color: #252424;
   cursor: pointer;
+  color: #252424;
   background-color: #fffefe;
 
   &:hover {

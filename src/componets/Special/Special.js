@@ -40,13 +40,13 @@ const Special = () => {
         <Card
           name="My Dress-Up Darling"
           img="https://u.livechart.me/anime/10531/poster_image/c416608257ed698c64ed341424469dfd.webp/small.jpg"
-          genre="2018, Comedy"
+          genre="2018, Romance"
         />
 
         <Card
           name="Scissor Seven"
           img="https://u.livechart.me/anime/9787/poster_image/8fcba37819ba0dbae312779a33d0c74e.jpg/small.jpg"
-          genre="2022, Romance"
+          genre="2022, Comedy"
         />
       </div>
     </div>
