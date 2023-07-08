@@ -15,6 +15,8 @@
 
 .content__summary {
   width: 23%;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .content__contact {
@@ -34,6 +36,11 @@
   justify-content: center;
   align-items: center;
   margin-left: 2rem;
+
+  &:hover {
+    background-color: black;
+    color: #fff;
+  }
 }
 
 .bookmark {

@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import "./App.css";
 import Header from "./componets/Header/Header";
-import axios from "axios";
 import Content from "./componets/Content/Content";
+import Special from "./componets/Special/Special";
 
 function App() {
   // useEffect(() => {
@@ -19,9 +19,12 @@ function App() {
   //{console.log("hi")}
 
   return (
-    <div className="App">
-      <Header />
-      <Content />
+    <div className="back">
+      <div className="App">
+        <Header />
+        <Content />
+      </div>
+      <Special />
     </div>
   );
 }

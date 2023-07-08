@@ -1,0 +1,15 @@
+.special__section {
+  margin: 0 5rem;
+}
+
+.special__heading {
+  color: #fff;
+  margin-top: -7rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.special__card {
+  display: flex;
+  justify-content: space-between;
+}

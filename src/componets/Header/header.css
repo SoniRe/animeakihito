@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   background-color: transparent;
   border-bottom: 1px solid var(--color-grey-dark-3);
 }
@@ -10,6 +9,11 @@
 .header__link {
   text-decoration: none;
   color: #969696;
+  font-size: 1.6rem;
+
+  &:hover {
+    color: #c4c3c4;
+  }
 }
 
 .active {
@@ -36,7 +40,6 @@ svg {
 .search__icon {
   background-color: transparent;
   fill: #8a8d8d;
-  cursor: pointer;
 }
 
 .search__button {
@@ -46,7 +49,7 @@ svg {
 }
 
 .search__input {
-  font-size: inherit;
+  font-size: 1.6rem;
   padding: 1.5rem 1.4rem;
   border-radius: 1rem;
   color: #fff;
@@ -73,6 +76,12 @@ svg {
   color: #fff;
   background-color: #222523;
   cursor: pointer;
+  font-size: 1.4rem;
+
+  &:hover {
+    background-color: black;
+    color: #fff;
+  }
 }
 
 .initial {
@@ -83,4 +92,9 @@ svg {
   color: #252424;
   cursor: pointer;
   background-color: #fffefe;
+
+  &:hover {
+    background-color: #e9e9e9;
+    color: black;
+  }
 }

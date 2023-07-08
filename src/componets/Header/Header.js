@@ -40,9 +40,9 @@ const Header = () => {
         <input type="text" className="search__input" placeholder="Search" />
       </form>
 
-      <button className="login">Login</button>
+        <button className="login">Login</button>
 
-      <button className="initial">Get Started</button>
+        <button className="initial">Get Started</button>
     </nav>
   );
 };
