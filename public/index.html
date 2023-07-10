@@ -53,7 +53,20 @@
       );
 
       // Get the download URL of the video file
-      videoRef
+      //videoRef
+        //.getDownloadURL()
+        //.then(function (url) {
+          // Set the video source to the download URL
+          //var videoPlayer = document.getElementById("videoPlayer");
+          //videoPlayer.src = url;
+        //})
+        //.catch(function (error) {
+          //console.log("Error:", error);
+        //});
+
+
+        function loadVideo(){
+          videoRef
         .getDownloadURL()
         .then(function (url) {
           // Set the video source to the download URL
@@ -63,6 +76,16 @@
         .catch(function (error) {
           console.log("Error:", error);
         });
+
+        }
+
+       loadVideo();
+       // Add click event listener to the button
+      //var button = document.querySelector(".btn--white");
+      //button.addEventListener("click", loadVideo);
+
+
+
     </script>
 
 
