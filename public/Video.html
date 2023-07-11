@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase.js"></script>
+  </head>
+  <body>
+    <video id="videoPlayer" controls></video>
+
+    <script>
+      // Initialize Firebase
+      const firebaseConfig = {
+        apiKey: "AIzaSyDZY02dQwU150jJfU336qwnp9LEvql84K4",
+        authDomain: "animeaikhito.firebaseapp.com",
+        databaseURL: "https://animeaikhito-default-rtdb.firebaseio.com",
+        projectId: "animeaikhito",
+        storageBucket: "animeaikhito.appspot.com",
+        messagingSenderId: "271919251156",
+        appId: "1:271919251156:web:849f9febb6cb32289f0541",
+        measurementId: "G-FYFD5WG6B1",
+      };
+      firebase.initializeApp(firebaseConfig);
+
+      // Create a reference to the video file in Firebase Storage
+      var storageRef = firebase.storage().ref();
+      var videoRef = storageRef.child(
+        "One Punch Man Season 1/one-punch-man-dub-episode-1.mp4"
+      );
+
+      // Get the download URL of the video file
+      videoRef
+        .getDownloadURL()
+        .then(function (url) {
+          // Set the video source to the download URL
+          var videoPlayer = document.getElementById("videoPlayer");
+          videoPlayer.src = url;
+        })
+        .catch(function (error) {
+          console.log("Error:", error);
+        });
+    </script>
+  </body>
+</html>
