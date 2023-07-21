@@ -1,5 +1,6 @@
 #featured {
   margin-top: 3rem;
+  margin-bottom: 15rem;
 }
 
 #featured h2 {
@@ -23,16 +24,47 @@
 }
 
 #item1 {
-  height: 27rem;
+  height: 29rem;
   width: 45rem;
   background-color: #2f2f2f;
   border-radius: 20px;
   position: relative;
+  overflow: hidden;
+}
+
+.anime__image1 {
+  position: absolute;
+  height: 20rem;
+  top: 40%;
+  left: 15%;
+  border-radius: 10px;
+  transform: rotateZ(-10deg);
+}
+
+.anime__image2 {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  height: 20rem;
+  border: 5px solid #2f2f2f;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.anime__image3 {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  border-radius: 10px;
+  z-index: 1;
+  height: 20rem;
+  border: 5px solid #2f2f2f;
+  transform: rotateZ(10deg);
 }
 
 #item1 h2 {
   position: absolute;
-  top: 10%;
+  top: 7%;
   left: 50%;
   transform: translate(-50%, 0);
   text-align: center;
@@ -42,16 +74,17 @@
 }
 
 #item2 {
-  height: 27rem;
+  height: 29rem;
   width: 45rem;
   background-color: #2f2f2f;
   border-radius: 20px;
   position: relative;
+  overflow: hidden;
 }
 
 #item2 h2 {
   position: absolute;
-  top: 10%;
+  top: 7%;
   left: 50%;
   transform: translate(-50%, 0);
   margin-left: 0;
@@ -62,16 +95,17 @@
 }
 
 #item3 {
-  height: 27rem;
+  height: 29rem;
   width: 45rem;
   background-color: #2f2f2f;
   border-radius: 20px;
   position: relative;
+  overflow: hidden;
 }
 
 #item3 h2 {
   position: absolute;
-  top: 10%;
+  top: 7%;
   left: 50%;
   transform: translate(-50%, 0);
   margin-left: 0;

@@ -1,54 +1,22 @@
-import { useEffect } from "react";
 import "./App.css";
 import Header from "./componets/Header/Header";
 import Content from "./componets/Content/Content";
-import Special from "./componets/Special/Special";
+import Section from "./componets/Section/Section";
 import Featured from "./componets/Featured/Featured";
+import { special, trending } from "./fetchAPI";
 
 function App() {
-  // useEffect(() => {
-  //   axios
-  //     .get("/api")
-  //     .then((response) => {
-  //       console.log(response.data.users);
-  //     })
-  //     .catch((error) => {
-  //       console.log(error);
-  //     });
-  // });
-
-  //{console.log("hi")}
-
   return (
     <div className="back">
       <div className="App">
         <Header />
         <Content />
       </div>
-      <Special />
+      <Section name="Special For You" content={special} />
       <Featured />
+      <Section name="Trending Now" content={trending} />
     </div>
   );
 }
 
 export default App;
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////JAVASCRIPT BACKEND//////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-// console.log("Website starting.....");
-// alert(
-//   "Some content is age restricted and sensitive here you should be 18+ ti view it"
-// );
-// let x = prompt("Enter your age");
-
-// if ((x = true)) {
-//   alert("YOU CAN START VIEWING THE WEBSITE");
-// } else {
-//   alert("ERROR");
-// }
