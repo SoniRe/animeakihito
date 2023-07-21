@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./componets/Header/Header";
 import Content from "./componets/Content/Content";
 import Special from "./componets/Special/Special";
+import Featured from "./componets/Featured/Featured";
 
 function App() {
   // useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
         <Content />
       </div>
       <Special />
+      <Featured />
     </div>
   );
 }
