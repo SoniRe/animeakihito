@@ -22,18 +22,18 @@
 .content__contact {
   margin-top: 2rem;
   display: flex;
-  align-items: center;
 }
 
 .btn {
   display: flex;
   border: none;
-  padding: 1.7rem 3rem;
+  padding: 1.5rem 3rem;
   border-radius: 1rem;
   cursor: pointer;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  font-size: 2rem;
   &:not(:first-child) {
     margin-left: 2rem;
   }
