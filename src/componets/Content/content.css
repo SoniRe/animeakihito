@@ -33,7 +33,7 @@
   cursor: pointer;
   justify-content: center;
   align-items: center;
-
+  text-decoration: none;
   &:not(:first-child) {
     margin-left: 2rem;
   }
@@ -73,4 +73,5 @@
 .text {
   display: inline-block;
   font-size: 1.5rem;
+  text-decoration: none;
 }
