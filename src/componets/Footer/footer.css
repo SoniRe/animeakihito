@@ -1,0 +1,28 @@
+#footer {
+  height: 30%;
+  width: 100%;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #252424;
+  background-color: #fff;
+  border-radius: 10px;
+  display: block;
+  padding: 1.4rem 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 4rem 5rem 1rem 5rem;
+}
+
+#footer h4 {
+  border-top: 5px solid #252424;
+  margin-top: 5rem;
+
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}

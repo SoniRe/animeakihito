@@ -1,5 +1,5 @@
 .special__section {
-  margin: 0 5rem;
+  margin: 10rem 5rem 0 5rem;
 }
 
 .special__heading {
@@ -11,5 +11,7 @@
 
 .special__card {
   display: flex;
-  justify-content: space-between;
+  gap: 3rem;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
