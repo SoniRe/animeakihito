@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div id="footer">
       <a href="">Show More</a>
-      <h4>Akihito.com</h4>
+      <h4>&copy;Akihito.com. Making what we deserve</h4>
     </div>
   );
 };

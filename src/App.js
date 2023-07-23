@@ -7,6 +7,8 @@ import Footer from "./componets/Footer/Footer";
 import { special, trending, popular } from "./fetchAPI";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AnimeStream from "./componets/AnimeStream/AnimeStream";
+import Video from "./assets/back-video.mp4";
+import PosterPhoto from "./assets/test1.jpeg";
 
 function App() {
   return (
@@ -16,9 +18,12 @@ function App() {
           path="/"
           element={
             <div className="back">
-              <div className="App">
-                <Header />
-                <Content />
+              <div id="App">
+                <video autoPlay muted src={Video}></video>
+                <div id="front-part">
+                  <Header />
+                  <Content />
+                </div>
               </div>
               <Section name="Special For You" content={special} />
               <Featured />

@@ -15,16 +15,38 @@
   height: 100%;
   width: 100%;
   background-color: #0b0a0be9;
+  position: relative;
+  z-index: -99;
 }
 
-.App {
-  background-image: linear-gradient(
+#App {
+  /* background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../src/assets/test1.jpeg");
-  background-size: cover;
-  height: 75vh;
-  margin-bottom: -21.5rem;
+    url("../src/assets/test1.jpeg"); */
+  height: 70%;
+  width: 100%;
+  margin-bottom: -11rem;
+  position: relative;
+}
+
+#App video {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  position: relative;
+  z-index: -9;
+}
+
+#App #front-part {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.378);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
 }

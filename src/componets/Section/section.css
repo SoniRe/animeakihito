@@ -1,5 +1,12 @@
 .special__section {
-  margin: 10rem 5rem 0 5rem;
+  padding: 10rem 5rem 0 5rem;
+  position: relative;
+  z-index: 2;
+  background-color: #0b0a0be9;
+}
+
+.first-section {
+  background-color: transparent;
 }
 
 .special__heading {

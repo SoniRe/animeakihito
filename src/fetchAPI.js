@@ -76,7 +76,7 @@ const trending = [
 
 const popular = [
   {
-    name: "JUJUTSU KAISEN Season 2",
+    name: "Jujustsu Kaisen S2",
     img: "https://u.livechart.me/anime/11083/poster_image/86c97d56c1258a659daebe115cc4c071.webp/small.jpg",
     genre: "2023, Fantasy",
   },

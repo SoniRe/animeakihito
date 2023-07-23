@@ -34,8 +34,9 @@
 
 .card__data {
   position: relative;
-  font-size: 2rem;
+  font-size: 0.95rem;
   margin-top: -6rem;
+  text-align: center;
   z-index: 100;
 }
 
