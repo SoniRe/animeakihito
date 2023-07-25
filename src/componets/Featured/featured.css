@@ -13,12 +13,13 @@
 }
 
 #collections {
-  margin-left: 5rem;
-  margin-right: 5rem;
-  display: flex;
-  align-items: center;
-  padding-top: 3rem;
-  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  grid-template-rows: auto auto auto;
 }
 
 #collections a {
