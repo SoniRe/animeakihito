@@ -18,7 +18,7 @@
 
 .special__card {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 1rem;
-  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  gap: 2.5rem;
 }
