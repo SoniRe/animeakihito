@@ -12,7 +12,7 @@ const Special = (props) => {
     <div className={`${className} special__section `}>
       <h3 className="special__heading">{name}</h3>
 
-      <div className="special__card">
+      <div className={props.class}>
         {data.map((obj) => {
           return <Card name={obj.name} img={obj.img} genre={obj.genre} />;
         })}
