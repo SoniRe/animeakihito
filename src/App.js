@@ -25,10 +25,10 @@ function App() {
                   <Content />
                 </div>
               </div>
-              <Section name="Special For You" content={special} />
+              <Section name="Special For You" content={special} class="special__card"/>
               <Featured />
-              <Section name="Trending Now" content={trending} />
-              <Section name="Most Popular" content={popular} />
+              <Section name="Trending Now" content={trending} class="special__card"/>
+              <Section name="Most Popular" content={popular} class="mostPopularOuter"/>
               <Footer />
             </div>
           }
