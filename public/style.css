@@ -1,0 +1,55 @@
+
+  .testimonialsDiv {
+    width: 85%;
+    margin: auto;
+  }
+  .testimonialHead {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .testimonialHead h2 {
+    margin-top: 0;
+  }
+  .testimonialHead h3 {
+    padding-top: 5rem;
+    font-weight: 500;
+  }
+  .testimonialCard {
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 8rem;
+    gap: 15rem;
+  }
+  .testimonialCarInner {
+    width: 80%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 2rem;
+  }
+  .testimonialCarInner p {
+    font-size: 1.2rem;
+  }
+  .testimonialCarInner h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .testimonialCarInfo {
+    display: flex;
+    flex-direction: row;
+  }
+  .testimonialCard img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    margin-right: 5rem;
+    margin-top: 2rem;
+  }
+  .testimonialCarInfo .fa-quote-right {
+    color: #f85047;
+    font-size: 3rem;
+    margin-left: 5rem;
+  }
+  

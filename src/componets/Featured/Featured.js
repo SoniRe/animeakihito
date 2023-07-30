@@ -5,7 +5,6 @@ const Featured = () => {
   return (
     <div id="featured">
       <h2>Featured Collections</h2>
-
       <div id="collections">
         <a href="">
           <div id="item1">
@@ -84,5 +83,4 @@ const Featured = () => {
     </div>
   );
 };
-
 export default Featured;

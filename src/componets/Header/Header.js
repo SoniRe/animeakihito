@@ -19,7 +19,6 @@ const Header = () => {
       <a className="header__link" href="#">
         Collections
       </a>
-
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -39,12 +38,9 @@ const Header = () => {
         </button>
         <input type="text" className="search__input" placeholder="Search" />
       </form>
-
-        <button className="login">Login</button>
-
-        <button className="initial">Get Started</button>
+      <button className="login">Login</button>
+      <button className="initial">Get Started</button>
     </nav>
   );
 };
-
 export default Header;
