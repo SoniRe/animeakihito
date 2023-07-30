@@ -42,7 +42,10 @@ function App() {
                 content={popular}
                 class="mostPopularOuter"
               />
+<<<<<<< HEAD
               <Newsletter />
+=======
+>>>>>>> 284a36a (param is pushing)
               <Footer />
             </div>
           }

@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 @import "../../css-config/mixins.scss";
 .footer {
   width: 100%;
   background: black;
   color: white;
+=======
+@import "../css-config/mixins.scss";
+.footer {
+  width: 100%;
+  color: white;
+  background-color: black;
+>>>>>>> 284a36a (param is pushing)
   .footerContent {
     padding: 50px 20px;
     max-width: 1200px;
@@ -20,9 +28,12 @@
         margin-bottom: 20px;
         font-size: 20px;
       }
+<<<<<<< HEAD
       .text {
         color: whitesmoke;
       }
+=======
+>>>>>>> 284a36a (param is pushing)
       .cItem {
         display: flex;
         margin-bottom: 10px;
@@ -31,7 +42,11 @@
           font-size: 14px;
           margin-right: 10px;
           margin-top: 4px;
+<<<<<<< HEAD
           color: whitesmoke;
+=======
+          color: white;
+>>>>>>> 284a36a (param is pushing)
         }
       }
       span {
@@ -44,7 +59,11 @@
     }
   }
   .bottomBar {
+<<<<<<< HEAD
     border-top: 1px solid whitesmoke;
+=======
+    border-top: 1px solid white;
+>>>>>>> 284a36a (param is pushing)
     .bottomBarContent {
       padding: 20px;
       display: flex;
@@ -54,7 +73,10 @@
       gap: 10px;
       .text {
         font-size: 12px;
+<<<<<<< HEAD
         color: whitesmoke;
+=======
+>>>>>>> 284a36a (param is pushing)
       }
     }
   }
