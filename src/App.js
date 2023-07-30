@@ -7,10 +7,8 @@ import Footer from "./componets/Footer/Footer";
 import { special, trending, popular } from "./fetchAPI";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AnimeStream from "./componets/AnimeStream/AnimeStream";
-import bg from "./assets/bg.webp";
 import PosterPhoto from "./assets/test1.jpeg";
-import Testimonials from "./componets/Testimonials/Testimonials";
-import Newsletter from "./componets/Footer/Newsletter/Newsletter";
+import Video from "./assets/back-video.mp4";
 function App() {
   return (
     <BrowserRouter>
@@ -20,7 +18,7 @@ function App() {
           element={
             <div className="back">
               <div id="App">
-                <img className="bg" src={bg} alt="" />
+                <video autoPlay muted src={Video}></video>
                 <div id="front-part">
                   <Header />
                   <Content />
@@ -42,10 +40,6 @@ function App() {
                 content={popular}
                 class="mostPopularOuter"
               />
-<<<<<<< HEAD
-              <Newsletter />
-=======
->>>>>>> 284a36a (param is pushing)
               <Footer />
             </div>
           }

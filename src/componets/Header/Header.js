@@ -1,5 +1,5 @@
 import "./header.css";
-import Logo from "../../assets/logo_transparent.png";
+import Logo from "../../assets/Akihito-logo-transparent.png";
 import SVG from "../../assets/sprite.svg";
 
 // icon-magnifying-glass
@@ -19,7 +19,6 @@ const Header = () => {
       <a className="header__link" href="#">
         Collections
       </a>
-
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -39,12 +38,9 @@ const Header = () => {
         </button>
         <input type="text" className="search__input" placeholder="Search" />
       </form>
-
-        <button className="login">Login</button>
-
-        <button className="initial">Get Started</button>
+      <button className="login">Login</button>
+      <button className="initial">Get Started</button>
     </nav>
   );
 };
-
 export default Header;
