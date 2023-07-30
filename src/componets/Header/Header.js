@@ -1,5 +1,5 @@
 import "./header.css";
-import Logo from "../../assets/Akihito-logo-transparent.png";
+import Logo from "../../assets/logo_transparent.png";
 import SVG from "../../assets/sprite.svg";
 
 // icon-magnifying-glass
