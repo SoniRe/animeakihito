@@ -18,23 +18,32 @@
 .card img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .card__data {
   position: absolute;
-  height: 20%;
+  height: 100%;
   width: 100%;
   bottom: 0;
-  background: linear-gradient(transparent, #000);
-  z-index: 100;
+  background: linear-gradient(transparent, transparent 55%, #000);
   transition: all ease 0.5s;
 }
 
 .card__title {
   font-size: 1.5rem;
+  position: absolute;
+  width: 100%;
+  bottom: 12%;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .card__genre {
   color: #e1e1e1;
   font-size: 1.1rem;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
