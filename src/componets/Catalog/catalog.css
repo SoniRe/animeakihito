@@ -1,0 +1,38 @@
+#main {
+  /* background-color: pink; */
+  height: 100%;
+  width: 100%;
+  padding-top: 15rem;
+}
+
+#main #left {
+  /* background-color: red; */
+  height: 100%;
+  width: 15%;
+  margin-left: 5rem;
+}
+
+#left h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+#left h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+#left #year {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #222523;
+  margin-top: 2rem;
+}
+
+#year i {
+  font-size: 2.5rem;
+  color: #fff;
+}

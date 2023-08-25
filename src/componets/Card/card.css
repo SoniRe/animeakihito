@@ -2,8 +2,8 @@
   color: #fff;
   margin-top: 2rem;
   border-radius: 1.2rem;
-  overflow: hidden;
   text-align: center;
+  overflow: hidden;
   cursor: pointer;
   height: 25rem;
   width: 18rem;
@@ -43,6 +43,7 @@
   color: #e1e1e1;
   font-size: 1.1rem;
   position: absolute;
+  /* font-weight: 400; */
   width: 100%;
   bottom: 5%;
   left: 50%;

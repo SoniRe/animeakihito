@@ -9,18 +9,20 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AnimeStream from "./componets/AnimeStream/AnimeStream";
 import PosterPhoto from "./assets/test1.jpeg";
 import Video from "./assets/back-video.mp4";
+import Catalog from "./componets/Catalog/Catalog";
+
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
         <Route
           path="/"
           element={
             <div className="back">
               <div id="App">
-                <video autoPlay muted src={Video}></video>
+                <video autoPlay muted loop src={Video}></video>
                 <div id="front-part">
-                  <Header />
                   <Content />
                 </div>
               </div>
@@ -45,6 +47,7 @@ function App() {
           }
         ></Route>
         <Route path="/video" element={<AnimeStream />}></Route>
+        <Route path="/catalog" element={<Catalog />}></Route>
       </Routes>
     </BrowserRouter>
   );

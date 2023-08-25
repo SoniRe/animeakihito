@@ -1,24 +1,53 @@
 import "./header.css";
 import Logo from "../../assets/Akihito-logo-transparent.png";
 import SVG from "../../assets/sprite.svg";
+import { Link } from "react-router-dom";
+import { useState } from "react";
 
 // icon-magnifying-glass
 const Header = () => {
+  const [currNav, setCurrNav] = useState("home");
+
   return (
     <nav className="header">
       <img className="logo" src={Logo} alt="akihito logo" />
-      <a className="header__link active" href="#">
+      <Link
+        onClick={() => {
+          setCurrNav("home");
+        }}
+        exact
+        to="/"
+        className={`header__link ${currNav == "home" ? "active" : ""}`}
+      >
         Home
-      </a>
-      <a className="header__link" href="#">
+      </Link>
+      <Link
+        onClick={() => {
+          setCurrNav("catalog");
+        }}
+        to="/catalog"
+        className={`header__link ${currNav == "catalog" ? "active" : ""}`}
+      >
         Catalog
-      </a>
-      <a className="header__link" href="#">
+      </Link>
+      <Link
+        onClick={() => {
+          setCurrNav("news");
+        }}
+        to="/news"
+        className={`header__link ${currNav == "news" ? "active" : ""}`}
+      >
         News
-      </a>
-      <a className="header__link" href="#">
+      </Link>
+      <Link
+        onClick={() => {
+          setCurrNav("collections");
+        }}
+        to="/collections"
+        className={`header__link ${currNav == "collections" ? "active" : ""}`}
+      >
         Collections
-      </a>
+      </Link>
       <form
         onSubmit={(e) => {
           e.preventDefault();
